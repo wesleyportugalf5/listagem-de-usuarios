@@ -4,6 +4,7 @@
 <body>
     <%- include("./partials/navbar.ejs") %>
     <div class="content">
+        <h3 class="contentTitle">Utilize o Postman para testes CRUD</h3>
         <% if (users.length > 0) { %> <% users.forEach(user => { %>
         
         <h3 class="title"><%= user.firstName %> <%= user.lastName %></h3>
